@@ -1,0 +1,160 @@
+body{
+    display:flex;
+    background-color:#1f2937;
+    font-family:'Arial';
+    color:lightgrey;
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+
+#div{
+   background-image:url("it.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height:100vh;
+    margin:0px;
+    padding:0px; 
+    width:30vw;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content:space-evenly;
+} 
+
+
+#div1{
+    font-size:30px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:70vw;
+}
+
+#div2{
+    display: flex;
+    justify-content:start;
+    width:50vw;
+    margin:0px;
+    
+}
+
+
+#div3{
+    display: flex;
+    justify-content:start;
+    width:50vw;
+    margin:0px;
+    padding: 0px;
+    font-size:16px;
+    
+}
+
+#hed1{
+    margin-bottom:0px;
+    padding: 0px;
+    margin-top:100px;
+}
+
+#hed3{
+    margin:0px;
+    padding: 0px;
+}
+
+#div4{
+    width:50vw;
+}
+
+#img{
+    height:150px;
+    width:400px;
+    object-fit:cover;
+    display: block;
+    margin-top:100px;
+    border-radius: 12px;
+    position:fixed;
+    mix-blend-mode: multiply;
+
+}
+.k{
+    margin-top:50px;
+    display:flex;
+    
+}
+
+#f{
+    display:flex;
+    flex-direction: column;
+}
+
+#fname1{
+    margin-left: 50px;
+}
+
+#fname3{
+    margin-left: 50px;
+}
+
+#fname5{
+    margin-left: 50px;
+}
+
+::placeholder {
+    color: #1f2937;
+    opacity: 1;  /* πολύ σημαντικό – χωρίς αυτό το placeholder είναι πιο αχνό */
+    font-weight: bold;
+}
+
+
+.mk{
+    background-color:white;
+    border-radius: 12px;
+    
+    border-bottom-color: palevioletred 2px;
+    height:30px;
+
+}
+
+#fname6{
+    height:45px;
+    background-color: rgb(144, 177, 144);
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    width:130px;
+    border-radius: 12px;
+}
+
+#div8{
+    display:flex;
+    margin-top:50px;
+    flex-direction: column;
+    
+}
+
+#fname6:hover{
+    background-color: rgb(237, 104, 168);
+}
+
+.mk:hover{
+    background-color: rgb(237, 104, 168);
+}
+
+#lb{
+    font-size:16px;
+    margin-top: 3px;
+}
+
+#a{
+    color:rgb(237, 104, 168);
+
+}
+
+#a:hover{
+    color:rgb(144, 177, 144);
+}
+
+#a:visited{
+    color:aqua;
+}
